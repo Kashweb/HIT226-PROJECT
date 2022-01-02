@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/navbar.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="CSS/vehicleregistrationrenewal.css">
+  <script src="js/vehicleregistrationrenewal.js"></script>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="location.html">Locations </a>
+    <a href="account.html">Account</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <main>
+    <div style="text-align: center;">
+      <h1><b>VEHICLE REGISTRATION RENEWAL</b></h1>
+      <br>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="container-section lisenceInfo">
+          <div class="lisenceLeftSection">
+
+            <!--  -->
+			<form name="myForm" action="payment.html" onsubmit="return validateForm()" method="post">
+            <div class="custom-form-container">
+              <div>
+                <p>Registration Number:</p>
+              </div>
+              <div>
+                <input name="rego_no" type="text" placeholder="Enter your rego number" />
+              </div>
+            </div>
+
+            <div class="custom-form-container">
+              <div>
+                <p>First Name:</p>
+              </div>
+              <div>
+                <input name="fname" type="text" placeholder="Enter your first name" />
+              </div>
+            </div>
+
+            <div class="custom-form-container">
+              <div>
+                <p>Last Name:</p>
+              </div>
+              <div>
+                <input name="lname" type="text" placeholder="Enter your last name" />
+              </div>
+            </div>
+
+            <div class="custom-form-container">
+              <div>
+                <p>Months:</p>
+              </div>
+              <div>
+                <select>
+                  <option>1 Month</option>
+                  <option>2 Months</option>
+                  <option>3 Months</option>
+                  <option>4 Months</option>
+                  <option>5 Months</option>
+                  <option>6 Months</option>
+                  <option>7 Months</option>
+                  <option>8 Months</option>
+                  <option>9 Months</option>
+                  <option>10 Months</option>
+                  <option>11 Months</option>
+                  <option>12 Months</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="custom-form-container">
+              <div>
+                <p>Address:</p>
+              </div>
+              <div>
+                <input name="address" type="text" placeholder="Enter your address" />
+              </div>
+            </div>
+            <br>
+            <br>
+            <div style="text-align: left;" class="btn-group">
+              <a type="button" class="btn exit-btn" href="index.html">Cancel</a>
+              <button class="btn payment-btn" id="submit" >Pay Now</button>
+            </div>
+
+			</form>
+
+          </div>
+
+        </div>
+        <div class="container-section rightSection">
+
+          <div class="box-group">
+            <div class="box box1">
+              <div class="img">
+                <img src="images/plate.png" alt="">
+              </div>
+            </div>
+            <div class="box box2">
+              <h3 style="text-align: center; padding-top: 20px; ">
+                Renewal Fee?
+              </h3>
+              <p style="text-align: center; ">$50 Per Month</p>
+              <p style="text-align: center; ">Enter "REGO FEE" as reference in payment page</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+	</div>
+	<div id="footer">
+		<!-- Footer start -->
+			<footer class="footer">
+		  <div class="container">
+			<div class="row">
+			  <div class="footer-col">
+				<h4>About Us</h4>
+				<ul>
+				  <li><a href="#">driver licencing</a></li>
+				  <li><a href="#">vehicle registraion </a></li>
+				  <li><a href="#">commercial vehicle</a></li>
+				  <li><a href="#">driving offences</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>Follow us</h4>
+				<ul>
+				  <li><a href="#">Facebook</a></li>
+				  <li><a href="#">Instagram</a></li>
+				  <li><a href="#">LinkedIn</a></li>
+				  <li><a href="#">Twitter</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>Our Locations</h4>
+				<ul>
+				  <li><a href="#">Casuarina</a></li>
+				  <li><a href="#">Parap</a></li>
+				  <li><a href="#">Palmerston</a></li>
+				  <li><a href="#">Katherine</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>FAQ</h4>
+				<ul>
+				  <li><a href="#">complaints</a></li>
+				  <li><a href="#">payment options</a></li>
+				  <li><a href="#">postage status</a></li>
+				  <li><a href="#">privacy policy</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</footer>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+.information-container {
+    width: 100%;
+    padding: 50px;
+ }
+ 
+ .information-container .row {
+    width: 100%;
+ }
+ 
+ .information-container .row .col {
+    float: left;
+    padding: 25px;
+ }
+ 
+ .information-container .row .col-5 {
+    width: 33%;
+ }
+ 
+ .information-container .row .col-7 {
+    width: 67%;
+ }
+
+ .card {
+    transition: 0.3s all;
+    min-width: 100% !important;
+ }
+ 
+ .card:hover {
+    -webkit-box-shadow: 10px 10px 58px 9px rgb(90, 146, 192);
+    -moz-box-shadow: 10px 10px 58px 9px rgb(90, 146, 192);
+    box-shadow: 10px 10px 58px 9px rgb(90, 146, 192);
+ }
+ 
+ .card .card-body {
+    padding: 30px;
+ }
+ 
+ .card .card-body .item-container {
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ 
+ .card .card-body .item-container img {
+    width: 40px;
+    height: 40px
+ }
+ 
+ .card .card-body form .form-group {
+    margin-bottom: 20px;
+ }
+ 
+ .card .card-body form .form-group p {
+    font-size: 14px;
+    margin-bottom: 5px;
+ }
+ 
+ .card .card-body form .form-group input {
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 25px 10px;
+    width: 100% !important;
+    border: 1px solid #000000;
+ }
+ 
+ .card .card-body form .form-group textarea {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 0px;
+    width: 100% !important;
+    border: 1px solid #000000;
+ }
+ 
+ .card .card-body form .btn {
+    width: 100%;
+    border-radius: 0 !important;
+ }
+ 
+  
+  h1 {
+    font-size: 50px;
+    color: #030705;;
+    text-align: center
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: black;
+    text-align: center
+  }
+  
+  .lastrow h3 {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%)
+  }
+  
+  .lastrow p {
+    POSITION: center
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #c3dbff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .wrapper {
+    margin-top: 9.5%;
+  }
+  
+  .wrapper h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .info_card {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    transition: 55.9s ease;
+    cursor: pointer;
+    transition: transform 55.9s;
+    transform-style: preserve-3d;
+  }
+  
+  .info_card .mvr_section {
+    background: rgb(90, 146, 192);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    coloR: black;
+    position: relative;
+    transition: 0.3s all;
+  }
+  
+  .info_card .mvr_section:hover {
+    -webkit-box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  .info_card .mvr_section h3 {
+    color: #f8f8f8;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .info_card .mvr_section p.role {
+    color: rgb(255, 255, 255);
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .info_card .mvr_section .section_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+  }
+  
+  .info_card .mvr_section .section_img img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  
+  .leftSection {
+    padding-left: 100px;
+  }
+  
+  .rightScetion {
+    padding-left: 250px;
+  }
+  
+  .flex-container {
+    min-height: 200px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .flex-container .flex-item {
+    float: left;
+    width: 50% !important;
+  }
+  
+  .btn {
+    background-color: rgb(37, 220, 20);
+    color: rgb(15, 14, 14);
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .shadow {
+    -webkit-box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+  }

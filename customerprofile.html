@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/location.css">
+    <link rel="stylesheet" href="CSS/customerprofile.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+
+
+
+</head>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="location.html">Locations </a>
+        <a href="account.html">Account</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+
+<main>
+<h1 class="title">WELCOME TO YOUR MVR PROFILE</h1>
+<br>
+<div class="tabContainer">
+    <div class="buttonContainer">
+        <button onclick="showPanel(0,'#rgb(90, 146, 192);')">Licence Status</button>
+        <button onclick="showPanel(1,'#rgb(90, 146, 192);')">Registration Status</button>
+        <button onclick="showPanel(2,'#rgb(90, 146, 192);')">Infringement Notices</button>
+        <button onclick="showPanel(3,'#rgb(90, 146, 192);')">Demerit Status</button>
+    </div>
+    <div class="tabPanel">First Name: JOHN
+                          <br> Last Name: CITIZEN
+                          <br> Licence Number: 123456
+                          <br> Expiry: 00/00/00
+                          <br>
+             <br> <a type="button" class="btn exit-btn" href="updatecustomerdetails.html">Update Details</a> <a type="button" class="btn exit-btn" href="driverlicencerenewal.html">Renew Licence</a>
+                          </div>
+    <div class="tabPanel">Vehicle Make: Toyota
+                          <br> Vehicle Model: Camry
+                          <br> Rego Number: XXXXXX
+                          <br> Expiry: 00/00/00
+                          <br>
+                          <br> <a type="button" class="btn exit-btn" href="vehicleregistrationrenewal.html">Renew Registration</a></div>
+    <div class="tabPanel">Name: JOHN CITIZEN
+                          <br> Infringement Reference: 123456
+                          <br> Amount Due: 123456
+                          <br> Due Date: 00/00/00
+                          <br>
+             <br> <a type="button" class="btn payment-btn" href="payment.html">Pay Fine</a></div>
+    <div class="tabPanel"> Name: JOHN CITIZEN
+                          <br> Driver Licence Number: 123456
+                          <br> Demerit Points: 3/12
+                         <div></div>
+</div>
+</main>
+
+<br>
+<br>
+<br>
+
+
+<div id="footer">
+    <!-- Footer start -->
+        <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">driver licencing</a></li>
+              <li><a href="#">vehicle registraion </a></li>
+              <li><a href="#">commercial vehicle</a></li>
+              <li><a href="#">driving offences</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Locations</h4>
+            <ul>
+              <li><a href="#">Casuarina</a></li>
+              <li><a href="#">Parap</a></li>
+              <li><a href="#">Palmerston</a></li>
+              <li><a href="#">Katherine</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>FAQ</h4>
+            <ul>
+              <li><a href="#">complaints</a></li>
+              <li><a href="#">payment options</a></li>
+              <li><a href="#">postage status</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<script src="js/customerprofile.js"></script>
+</body>
+
+</html>

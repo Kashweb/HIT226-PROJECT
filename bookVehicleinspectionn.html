@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/bookvehicleinspection.css">
+  <link rel="stylesheet" href="CSS/navbar.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <title>BOOK VEHICLE INSPECTION</title>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="location.html">Locations </a>
+    <a href="account.html">Account</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  <main>
+    <div class="container mt-3">
+      <h1 id="header-book-test">BOOK VEHICLE INSPECTION </h1>
+      <div class="mt-3">
+		<form>
+		  <h3 class="second-header">Choose location</h3>
+		  <select id="mySelect" class="dropdown">
+			<option value="Darwin" class="dropdown-content">Casuarina</option>
+			<option value="Parap" class="dropdown-content">Parap</option>
+			<option value="Casuarina" class="dropdown-content">Palmerston</option>
+			<option value="Katherine" class="dropdown-content">Katherine</option>
+		  </select>
+		</form>
+	  <br><br>
+
+        <h3 class="second-header">Car Inspection</h3>
+        <div class="row justify-content-center">
+        <table id="vehicle">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Test name</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Heavy Vehicle Inspection</td>
+                <td><button class="btn btn-primary">Book</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Commercial Vehicle Inspection</td>
+                <td><button class="btn btn-primary">Book</button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Car Inspection</td>
+                <td><button class="btn btn-primary">Book</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <br>
+      			<form name="myForm" action="payment.html" onsubmit="return validateForm()" method="post">
+                    <div class="form-group mb-3">
+						<br><br>
+                        <label for="bday">Enter your date:
+							<input type="date" name="bday" required pattern="\d{4}-\d{2}-\d{2}">
+							<span class="validity"></span>
+						</label>      
+                    </div>
+					<div style="text-align: left;" class="btn-group">
+					  <a type="button" class="btn exit-btn" href="services.html">Cancel</a>
+					  <button class="btn payment-btn" id="submit" >Pay Now</button>
+					</div>
+                </form>
+      <br>
+    </div>
+  </main>
+
+
+
+  <br>
+  <br>
+
+	</div>
+	<div id="footer">
+		<!-- Footer start -->
+			<footer class="footer">
+		  <div class="container">
+			<div class="row">
+			  <div class="footer-col">
+				<h4>About Us</h4>
+				<ul>
+				  <li><a href="#">driver licencing</a></li>
+				  <li><a href="#">vehicle registraion </a></li>
+				  <li><a href="#">commercial vehicle</a></li>
+				  <li><a href="#">driving offences</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>Follow us</h4>
+				<ul>
+				  <li><a href="#">Facebook</a></li>
+				  <li><a href="#">Instagram</a></li>
+				  <li><a href="#">LinkedIn</a></li>
+				  <li><a href="#">Twitter</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>Our Locations</h4>
+				<ul>
+				  <li><a href="#">Casuarina</a></li>
+				  <li><a href="#">Parap</a></li>
+				  <li><a href="#">Palmerston</a></li>
+				  <li><a href="#">Katherine</a></li>
+				</ul>
+			  </div>
+			  <div class="footer-col">
+				<h4>FAQ</h4>
+				<ul>
+				  <li><a href="#">complaints</a></li>
+				  <li><a href="#">payment options</a></li>
+				  <li><a href="#">postage status</a></li>
+				  <li><a href="#">privacy policy</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</footer>
+</body>
+
+</html>

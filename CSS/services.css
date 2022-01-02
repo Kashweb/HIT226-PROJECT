@@ -1,0 +1,82 @@
+body{
+        background: #c3dbff;
+}
+.header{
+        font-size: 50px;
+        color:black;
+        text-align:center
+}
+.boxes{
+        display: flex;
+        justify-content: space-between;
+}
+.box{
+  position: relative;
+  text-decoration: solid;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  width: 330px;
+  height: 200px;
+  border: 10px rgb(90, 146, 192);
+  padding: 40px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 30px;
+  background-color: rgb(90, 146, 192);
+  box-shadow: 0 10px 10px 0 rgb(90, 146, 192);
+  border-radius: 100px;
+}
+.box:hover{
+  animation: boxhovered;
+  animation-duration: 1s;
+  border-radius: 100px;
+}
+.box a{
+        text-decoration:none;
+        text-align: middle;
+        font-size: 20px;
+        padding: 100px;
+        width: 100%;
+        height: 0px;
+        background-color: rgb(90, 146, 192);
+        color:rgb(0, 0, 0);
+        position: absolute;
+        border-radius: 100px;
+        bottom: 0;
+        left:0;
+}
+.hovered{
+        animation-name: changecolor;
+        animation-duration: 0s;}
+.hovered{
+          -webkit-animation-fill-mode: forwards; 
+  -moz-animation-fill-mode: forwards;    
+  -ms-animation-fill-mode: forwards;     
+  animation-fill-mode: forwards; 
+}
+.boxzoomed{
+        animation-name: rotatebox;
+        animation-duration: .4s;
+}
+@keyframes changecolor{
+        from {background-color: #333;color: #333;}
+        to {background-color: #333;color:white;}
+}
+
+
+@-moz-keyframes rotatebox{
+    from { -moz-transform: scale(0);}
+    to { -moz-transform: scale(1);}
+}
+@-webkit-keyframes rotatebox{
+    from { -webkit-transform: scale(0); }
+    to { -webkit-transform: scale(1); }
+}
+@keyframes rotatebox {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+@keyframes boxhovered{
+        from{background-color: lightskyblue;}
+        to{background-color: rgb(90, 146, 192);}
+}

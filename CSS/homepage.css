@@ -1,0 +1,76 @@
+  h1 {
+    font-size: 70px;
+    color: #333;;
+    text-align: center
+  }
+  h2 {
+    font-size: 30px;
+    color: #333;
+    text-align: center
+  }
+  body {
+    background: #c3dbff;
+  }
+  .wrapper {
+    margin-top: 10%;
+  }
+  .wrapper h1 {
+    font-size: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .info_card {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    transition: 55.9s ease;
+    cursor: pointer;
+  }
+  .info_card .mvr_section {
+    background: rgb(90, 146, 192);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    coloR: black;
+    position: relative;
+    transition: 0.3s all;
+  }
+  .info_card .mvr_section:hover {
+    -webkit-box-shadow: 1px 3px 12px -1px #333;
+    box-shadow: 1px 3px 12px -1px #333;
+  }
+  .info_card .mvr_section h3 {
+    color: White;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  .info_card .mvr_section p.role {
+    color: white;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  .info_card .mvr_section .section_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: white;
+  }
+  .info_card .mvr_section .section_img img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  img {
+    transition: transform .7s ease-in-out;
+  }
+  img:hover {
+    transform: rotate(360deg);
+}

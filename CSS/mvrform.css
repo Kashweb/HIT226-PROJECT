@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.mvr-container p{
+    padding: 20px;
+    background: rgb(90, 146, 192);
+    transition: 0.5s all;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.mvr-container p:hover{
+    color: #fff;
+    background: green;
+    padding-left: 20px;
+    -webkit-box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 3px 12px -1px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+body{
+    background: #c3dbff;
+    font-family: 'Josefin Sans', sans-serif;
+}
